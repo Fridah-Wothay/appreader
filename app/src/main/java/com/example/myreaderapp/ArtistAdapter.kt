@@ -22,7 +22,7 @@ class ArtistAdapter(var artistList:List<Artist>):RecyclerView.Adapter<ArtistView
         holder.rtName.text = artist.name
         holder.rttitle.text = artist.title
         holder.rtPublishingDate.text = artist.date
-        holder.rtSummary.text = artist.book
+        holder.rtSummary.text = artist.summary
 
     }
 
